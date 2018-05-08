@@ -12,7 +12,7 @@ public class GameOverScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        StartCoroutine("LoseTime");
+        //StartCoroutine("LoseTime");
     }
 
     // Update is called once per frame

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Column : MonoBehaviour {
 
-    private float scrollingSpeed = 2f;
+    private float scrollingSpeed = 4f;
 
     void Start () {
 		

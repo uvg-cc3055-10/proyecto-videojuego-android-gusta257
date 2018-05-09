@@ -25,7 +25,7 @@ public class ForestScript : MonoBehaviour
     {
         move = Input.GetAxis("Horizontal");
 
-        anim.SetFloat("Speed", Mathf.Abs(move)*speed);
+        //anim.SetFloat("Speed", Mathf.Abs(move)*speed);
 
         if (Input.GetButtonDown("Jump"))
         {

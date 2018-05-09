@@ -18,7 +18,7 @@ public class TimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        countdownText.text = ("WORLD 1: " + timeLeft);
+        countdownText.text = ("Time Left: " + timeLeft);
 
         if (timeLeft <= 0)
         {

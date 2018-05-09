@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ef0c62b184cbe1d439cf2fc375d36313
+timeCreated: 1525826248
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kirby No Kira Kizzu (BRK)
+  fontNames:
+  - Kirby No Kira Kizzu (BRK)
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

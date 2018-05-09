@@ -10,6 +10,7 @@ public class ForestScript : MonoBehaviour
     public Animator anim;
     private float move;
     AudioSource muerteS;
+    public float speed = 50f;
    // AudioSource saltoS;
 
     void Start()
@@ -24,7 +25,7 @@ public class ForestScript : MonoBehaviour
     {
         move = Input.GetAxis("Horizontal");
 
-        anim.SetFloat("Speed", Mathf.Abs(move));
+        anim.SetFloat("Speed", Mathf.Abs(move)*speed);
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -41,6 +42,7 @@ public class ForestScript : MonoBehaviour
         Debug.Log(GameController.instance.score);
         GameController.instance.gameOver = true;
         muerteS.Play();
+       
         
 
 

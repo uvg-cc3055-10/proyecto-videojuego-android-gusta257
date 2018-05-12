@@ -25,10 +25,6 @@ public class TimerMundo2 : MonoBehaviour
             SceneManager.LoadScene("Mundo2PLAY", LoadSceneMode.Single);
         }
 
-        if (GameController.instance.gameOver == true)
-        {
-            countdownText.text = "";
-        }
     }
 
     IEnumerator LoseTime()

@@ -1,0 +1,16 @@
+Se implemento que el personaje salte con touch, sonido a la hora de morir, animacion del personaje, cambio de sprite de enemigos, pantalla de carga a nivel 2, fondo nivel 2, animacion enemigo nivel 2, pantalla de inicio del juego.
+
+Preguntas 
+Como usar mas de 2 sonidos en un sprite.
+Como mejorar el tamano de pantalla de inicio en el celular ya que se ve pequena
+
+Sonidos extraidos de aca:
+
+http://www.orangefreesounds.com/funny-game-sound/
+https://freesound.org/people/ProAnanasGumpy/sounds/324416/
+
+Fuentes de letras extraidos de aca:
+http://www.fontspace.com/westral-fonts/snes
+
+sprites:
+https://opengameart.org/sites/default/files/Hat_man.zip

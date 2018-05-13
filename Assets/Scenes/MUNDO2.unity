@@ -244,7 +244,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'MUNDO TERMINADO!!
 
-    Preparate para MUNDO2 (flappy bird) en:'
+    Preparate para MUNDO2  en:'
 --- !u!222 &969387621
 CanvasRenderer:
   m_ObjectHideFlags: 0

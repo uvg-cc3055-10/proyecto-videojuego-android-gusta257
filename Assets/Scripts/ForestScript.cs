@@ -5,7 +5,7 @@ using UnityEngine;
 public class ForestScript : MonoBehaviour
 {
 
-    public float jumpForce = 100f;
+    public float jumpForce = 200f;
     private Rigidbody2D rb;
     public Animator anim;
     private float move;

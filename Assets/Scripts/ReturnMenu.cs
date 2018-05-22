@@ -3,10 +3,10 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class TimerMundo2 : MonoBehaviour
+public class ReturnMenu : MonoBehaviour
 {
     public string levelToLoad;
-    public int timeLeft = 5;
+    public int timeLeft = 1000;
     public Text countdownText;
 
     // Use this for initialization
@@ -20,9 +20,15 @@ public class TimerMundo2 : MonoBehaviour
     {
         countdownText.text = ("" + timeLeft);
 
+        if (GameController.instance.gameOver == true)
+            {
+            timeLeft = 0;
+           
+            }
+
         if (timeLeft <= 0)
         {
-            SceneManager.LoadScene("Mundo2PLAY", LoadSceneMode.Single);
+            SceneManager.LoadScene("MENU", LoadSceneMode.Single);
         }
 
     }

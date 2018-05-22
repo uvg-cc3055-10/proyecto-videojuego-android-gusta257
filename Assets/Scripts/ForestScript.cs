@@ -9,6 +9,8 @@ public class ForestScript : MonoBehaviour
     private Rigidbody2D rb;
     public Animator anim;
     private float move;
+    public GameObject feet;
+    public LayerMask layerMask;
     AudioSource muerteS;
     public float speed = 50f;
    // AudioSource saltoS;

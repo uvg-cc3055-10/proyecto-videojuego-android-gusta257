@@ -12,18 +12,36 @@ public class GameOverScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //StartCoroutine("LoseTime");
+        StartCoroutine("LoseTime");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //countdownText.text = ("" + timeLeft);
+
         if (GameController.instance.gameOver == true)
         {
-            countdownText.text = "GAME OVER";
+            //countdownText.text = "GAME OVER";
+            SceneManager.LoadScene("MENU", LoadSceneMode.Single);
+        }
+
+        if (timeLeft <= 0)
+        {
+            countdownText.text = "GANADOR!!!";
+        }
+
+
+    }
+
+    IEnumerator LoseTime()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            timeLeft--;
         }
     }
 
- 
+
 }

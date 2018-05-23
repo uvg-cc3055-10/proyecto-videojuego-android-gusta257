@@ -1398,6 +1398,7 @@ GameObject:
   - component: {fileID: 1440837105}
   - component: {fileID: 1440837104}
   - component: {fileID: 1440837103}
+  - component: {fileID: 1440837107}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1482,6 +1483,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1440837107
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1440837102}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34492c28ade10f646b4c1956ae2ea7e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1687929710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,7 +1698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade13851886d74945aa7f39b92f6e905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  column: {fileID: 1901866051159618, guid: d6bac71053a1cce45a617c7d9edaf59f, type: 2}
+  column: {fileID: 1636750387624778, guid: f88df6186e2bf5647b80475144069e2c, type: 2}
   spawnTime: 5
   elapsedTime: 0
 --- !u!114 &1981072137

@@ -37,7 +37,7 @@ public class ForestM2 : MonoBehaviour
         GameController.instance.score++;
         Debug.Log(GameController.instance.score);
         GameController.instance.gameOver = true;
-        muerteS.Play();
+        //muerteS.Play();
 
     }
 

@@ -11,16 +11,16 @@ public class ForestScript : MonoBehaviour
     private float move;
     public GameObject feet;
     public LayerMask layerMask;
-    AudioSource muerteS;
+   // AudioSource muerteS;
     public float speed = 50f;
-   // AudioSource saltoS;
+    AudioSource saltoS;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        muerteS = GetComponent<AudioSource>();
-       // saltoS = GetComponent<AudioSource>();
+        //muerteS = GetComponent<AudioSource>();
+       saltoS = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -34,7 +34,7 @@ public class ForestScript : MonoBehaviour
             
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
-            //saltoS.Play();
+            saltoS.Play();
             
         }
     }
@@ -44,7 +44,7 @@ public class ForestScript : MonoBehaviour
         GameController.instance.score++;
         Debug.Log(GameController.instance.score);
         GameController.instance.gameOver = true;
-        muerteS.Play();
+       // muerteS.Play();
        
         
 

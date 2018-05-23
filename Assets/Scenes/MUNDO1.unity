@@ -633,7 +633,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 944441517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.98, y: -1.33, z: 0}
+  m_LocalPosition: {x: -5.2, y: -1.26, z: 0}
   m_LocalScale: {x: 2.9168856, y: 3.0351298, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1224,7 +1224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 234.1, y: 413}
+  m_AnchoredPosition: {x: 10, y: 400}
   m_SizeDelta: {x: 830.6, y: 75.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294797520
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: 
-  timeLeft: 30
+  timeLeft: 15
   countdownText: {fileID: 1294797521}
 --- !u!114 &1294797521
 MonoBehaviour:
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   column: {fileID: 1636750387624778, guid: f88df6186e2bf5647b80475144069e2c, type: 2}
-  spawnTime: 5
+  spawnTime: 2
   elapsedTime: 0
 --- !u!114 &1981072137
 MonoBehaviour:

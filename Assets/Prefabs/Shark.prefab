@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114163104027223410}
   - component: {fileID: 114827974139225318}
   - component: {fileID: 114865632017330982}
+  - component: {fileID: 70247287255494116}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Untagged
@@ -89,8 +90,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.9031916, y: 1.6535723}
+  m_Size: {x: 3.49, y: 0.41}
   m_EdgeRadius: 0
+--- !u!70 &70247287255494116
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1356571780750992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 5.01, y: 2.5799997}
+  m_Direction: 0
 --- !u!95 &95162707209357856
 Animator:
   serializedVersion: 3
@@ -130,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39498469a21ee634aa16cb60f51b5848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollingSpeed: 6
 --- !u!114 &114865632017330982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b00e6b2255ddc48a0a2d3999e8f3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingSpeed: 2
+  scrollingSpeed: 6
 --- !u!212 &212912464095764524
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: 
-  timeLeft: 5
+  timeLeft: 15
   countdownText: {fileID: 75777523}
 --- !u!114 &75777523
 MonoBehaviour:

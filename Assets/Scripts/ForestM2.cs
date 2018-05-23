@@ -8,7 +8,7 @@ public class ForestM2 : MonoBehaviour
     public float jumpForce = 200f;
     private Rigidbody2D rb;
     private float move;
-    AudioSource muerteS;
+    AudioSource saltoS;
 
     void Start()
     {
@@ -19,7 +19,7 @@ public class ForestM2 : MonoBehaviour
     {
 
         move = Input.GetAxis("Horizontal");
-
+        saltoS = GetComponent<AudioSource>();
         //anim.SetFloat("Speed", Mathf.Abs(move)*speed);
 
         if (Input.GetMouseButtonDown(0))
@@ -27,7 +27,7 @@ public class ForestM2 : MonoBehaviour
 
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
-            //saltoS.Play();
+            saltoS.Play();
 
         }
     }

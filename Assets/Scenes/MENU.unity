@@ -147,7 +147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 817.1, y: 360}
+  m_AnchoredPosition: {x: -753, y: -17}
   m_SizeDelta: {x: 196.2, y: 154.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162603115
@@ -268,7 +268,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -564.85, y: 284.3}
+  m_AnchoredPosition: {x: -564.85, y: 248.4}
   m_SizeDelta: {x: 1129.7, y: 568.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202423429
@@ -601,7 +601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 591.7, y: 455.5}
+  m_AnchoredPosition: {x: 297, y: -155}
   m_SizeDelta: {x: 196.2, y: 154.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788740113
@@ -744,7 +744,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: abeef76afda5e154381de5e9b8086cf3, type: 3}
+    m_Font: {fileID: 12800000, guid: 8ec18ace1444e194a9f5db8e88149287, type: 3}
     m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 0
@@ -899,7 +899,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: abeef76afda5e154381de5e9b8086cf3, type: 3}
+    m_Font: {fileID: 12800000, guid: 1b547071320d16e40a1886abe5559871, type: 3}
     m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 0
@@ -950,8 +950,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.6, y: 2.2}
-  m_SizeDelta: {x: 2004.2, y: 1136.2}
+  m_AnchoredPosition: {x: 0.000018119788, y: -7.7}
+  m_SizeDelta: {x: 1948.6, y: 1152.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961767777
 MonoBehaviour:

@@ -29,7 +29,7 @@ public class ColumnSpawner : MonoBehaviour
             {
                 float random = Random.Range(-2f, -1.93f);
                 if (column != null)
-                    Instantiate(column, new Vector3(4, random, 0), Quaternion.identity);
+                    Instantiate(column, new Vector3(9, random, 0), Quaternion.identity);
 
                 elapsedTime = 0;
             }

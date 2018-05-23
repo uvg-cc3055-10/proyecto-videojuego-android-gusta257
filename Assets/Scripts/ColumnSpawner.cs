@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Clase con el spawn de enemigos nivel 1*/
 public class ColumnSpawner : MonoBehaviour
 {
 

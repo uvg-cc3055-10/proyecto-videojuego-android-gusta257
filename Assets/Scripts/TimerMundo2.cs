@@ -2,7 +2,9 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/*
+ * Clase de para trancision entree niveles faciles
+ */
 public class TimerMundo2 : MonoBehaviour
 {
     public string levelToLoad;
@@ -19,7 +21,7 @@ public class TimerMundo2 : MonoBehaviour
     void Update()
     {
         countdownText.text = ("" + timeLeft);
-
+        //Trancision de nivel
         if (timeLeft <= 0)
         {
             SceneManager.LoadScene("Mundo2PLAY", LoadSceneMode.Single);

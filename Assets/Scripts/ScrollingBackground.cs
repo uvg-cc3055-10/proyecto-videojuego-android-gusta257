@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Control del movimiento del fondo*/
 public class ScrollingBackground : MonoBehaviour {
 
      float scrollingSpeed = 8f;

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Creacion de pajaros*/
 public class SpamD : MonoBehaviour
 {
 

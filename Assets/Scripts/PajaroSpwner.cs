@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Spawner del prefab del pajarp facil*/
 public class PajaroSpwner : MonoBehaviour
 {
 

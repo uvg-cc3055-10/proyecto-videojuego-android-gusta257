@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/*Clase que controla si el jugador gana el juego*/
 public class GameOverScript : MonoBehaviour
 {
     public string levelToLoad;

@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/*Clase que controla el regreso al menu si el personaje muere*/
 public class ReturnMenu : MonoBehaviour
 {
     public string levelToLoad;

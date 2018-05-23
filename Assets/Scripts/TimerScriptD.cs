@@ -2,11 +2,14 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+/*
+ * Clase para controlar el tiempo de juego en el nivel Dificil
+ */
 
 public class TimerScriptD : MonoBehaviour
 {
     public string levelToLoad;
-    public int timeLeft = 30;
+    public int timeLeft = 30;   //tiempo
     public Text countdownText;
 
     // Use this for initialization
@@ -22,11 +25,12 @@ public class TimerScriptD : MonoBehaviour
 
         if (timeLeft <= 0)
         {
-            //Application.LoadLevel(levelToLoad);
+            
 
             StopCoroutine("LoseTime");
             countdownText.text = "Times Up!";
 
+            //Cambio de escena
             if (GameController.instance.gameOver != true)
             {
                 SceneManager.LoadScene("Wait2D", LoadSceneMode.Single);

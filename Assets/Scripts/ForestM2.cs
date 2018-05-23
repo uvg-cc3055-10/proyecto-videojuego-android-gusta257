@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Clase que controla al personaje principal en niveles acuaticos*/
 public class ForestM2 : MonoBehaviour
 {
 

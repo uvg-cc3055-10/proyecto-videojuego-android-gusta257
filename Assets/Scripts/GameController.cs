@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Clae con gameCotroller*/
 public class GameController : MonoBehaviour {
     public bool gameOver = false;
     public int score = 0;

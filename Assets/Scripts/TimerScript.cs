@@ -2,11 +2,14 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+/*
+ * Clase para controlar el tiempo de juego en el nivel Facil
+ */
 
 public class TimerScript : MonoBehaviour
 {
     public string levelToLoad;
-    public int timeLeft = 30;
+    public int timeLeft = 30;//tiempo
     public Text countdownText;
 
     // Use this for initialization
@@ -26,8 +29,8 @@ public class TimerScript : MonoBehaviour
 
             StopCoroutine("LoseTime");
             countdownText.text = "Times Up!";
-
-            if(GameController.instance.gameOver != true)
+            //Cambio de escena
+            if (GameController.instance.gameOver != true)
             {
                 SceneManager.LoadScene("MUNDO2", LoadSceneMode.Single);
             }

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Clase control de enimgos*/
 public class Column : MonoBehaviour {
 
     public float scrollingSpeed = 8f;

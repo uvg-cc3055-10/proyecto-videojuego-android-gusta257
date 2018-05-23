@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+/*Clase para trancision de menu a nivel 1 dificil*/
 public class dificil : MonoBehaviour
 {
     public Text highText;

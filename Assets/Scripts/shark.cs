@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Spawner del prefab del tiburon facil*/
 public class shark : MonoBehaviour
 {
 

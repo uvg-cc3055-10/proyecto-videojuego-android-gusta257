@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*Clase que maneja al personaje principal en niveles terrestres*/
 public class ForestScript : MonoBehaviour
 {
 
